@@ -1,0 +1,59 @@
+/* common css starts */
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* commom css ends */
+
+/* navbar stars here */
+nav{
+    background-color:#02918b;
+}
+nav .Logo{
+    width: 40%;
+}
+
+nav .Menu{
+    width: 60%;
+    text-align: center;
+}
+
+
+.one{
+    display: inline-block;
+}
+
+nav .Menu ul li{
+    display: inline-block;
+}
+
+nav .Menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px;
+    display: inline-block;
+}
